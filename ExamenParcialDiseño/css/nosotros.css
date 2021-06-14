@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+.cabecera{
+	background: #FFFFFF;
+	position:fixed;
+	width: 100%;
+	opacity: 0.6;
+}
+.cabecera:hover{
+	opacity: 0.8;
+}
+.menu li{
+	float: left;
+	list-style: none;
+	padding: 50px 50px 10px 200px;
+}
+.menu li a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 25px;
+	font-family: "averia-serif-libre";
+}
+.menu li a:hover{
+	color:#0F532A;
+	opacity: 0.8;
+}
+.boton .registro{
+	border: 1px solid #879809;
+	padding: 10px;	
+	color:#020580;
+	text-decoration: none;
+	font-family: "averia-serif-libre";
+	border-radius: 50px;
+	font-size: 25px;
+}
+.boton{
+	padding: 50px 10px 2px 50px;
+	float: left;
+}
+.boton .registro:hover{
+	background:#000000;	
+	box-shadow: 0 5px 5px 0px rgba(0 ,0, 0, .4);
+	color: #FFFFFF;
+	border: 3px solid #f9e099;
+}
+.banner{
+	overflow: hidden;
+	margin-bottom: 25px;
+	background-repeat: no-repeat;
+}
+.banner img{
+	width: 1890px;
+	height: 900px;
+}
+.informacion{
+	width: 100%;
+	max-width: 1300px;
+	margin: auto;
+}
+.nosotros h2{
+	font-family:"waiting-for-the-sunrise";
+ 	font-size: 25px;
+	color: #3DDBD3;
+} 
+.nosotros h1{
+	font-size: 32px;
+	font-family:"waiting-for-the-sunrise";
+	color: #D11E24;
+}
+.nosotros p{
+	line-height: 1.2;
+	font-size: 17px;
+	font-family: "averia-serif-libre";
+}
+.informacion img{
+	float: right;
+	width: 550px;
+}
+footer{
+	background:#202020;
+	color: #FFFFFF;
+	width: 100%;
+	padding: 20px;
+}
+.contenedor-max{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+.contenedor-footer{
+	display: flex;
+}
+.space-one{
+	max-width: 400px;
+	padding-right: 50px;
+}
+.space-one h1{
+	font-size: 22px;
+}
+.space-one p{
+	font-size: 14px;
+	color: #c7c7c7;
+	margin-top: 20px;
+}
+.space-two{
+	max-width: 400px;
+	padding-right: 50px;
+}
+.space-two h1{
+	font-size: 22px;
+}
+.linea{
+	margin-top: 20px;
+	display: flex;
+}
+.linea img{
+	width: 36px;
+	height: 36px;
+}
+.linea h4{
+	margin-top: 10px;
+	margin-left: 15px;
+	color:#c7c7c7;
+}
+.space-three{
+	max-width: 400px;
+}
+.space-three h1{
+	font-size: 22px;
+}
+.linea2{
+	margin-top: 20px;
+}
+.linea2 img{
+	width: 36px;
+	height: 36px;
+}
+.linea2 h4{
+	margin-left: 20px;
+	max-width: 200px;
+}
